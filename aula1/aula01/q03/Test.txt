@@ -1,0 +1,6 @@
+Candidates:                                     Possibles outputs:
+1                                                       5
+2                                                       7
+3                                                       8
+4                                                       6
+5                                                       4

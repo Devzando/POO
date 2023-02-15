@@ -1,0 +1,5 @@
+
+/*
+ * Não será compilado, pois o método main não possui class.
+ * Para resolver, basta definir um class e colocar o método dentro.
+ */

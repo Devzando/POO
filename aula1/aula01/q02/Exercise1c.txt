@@ -1,0 +1,4 @@
+/*
+ * Não será compilado, pois o "while" deveria estar dentro de um método.
+ * Para resolver, basta colocar o "while" e toda sua lógica dentro de um método.
+ */
