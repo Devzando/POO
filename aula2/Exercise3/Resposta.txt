@@ -1,0 +1,7 @@
+Nenhum dos arquivos vai ser compilado
+
+O Arquivo A, mais especificamente no metódo main, não está intanciando a class StreamingSong. Para corrigir, basta
+instânciar a class dessa forma: StreamingSong song = new StreamingSong();
+
+O arquivo B, mais especificamente no metódo main, está chamando um metódo (play) da class Episode que não foi declarado.
+Para resolver, basta declarar o metódo na class Episode.
