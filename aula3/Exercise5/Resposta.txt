@@ -1,0 +1,3 @@
+Enquanto na primeira implementação conseguimos criar um objeto e ter um indice atrelado a ele
+na segunda implentação isso não acontece, e é justamente por isso que é mais fácil alterar lista de contatos
+com a primeira implementação, pois podemos usar o indice como referência.

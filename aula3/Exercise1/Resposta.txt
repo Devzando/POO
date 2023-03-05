@@ -1,0 +1,4 @@
+O arquivo b irá compilar corretamente.
+
+Para resolver o erro de compilção do arquivo A, basta apenas declarar uma intância de um objeto e um indice expecifico do array.
+Tipo: myBooks[0] = new Books();
