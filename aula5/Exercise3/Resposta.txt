@@ -1,0 +1,13 @@
+Candidates:                                             Possibles outputs:
+i < 9
+index < 5                                                       14 1
+
+i < 20
+index < 5                                                       25 1
+
+i < 7
+index < 7                                                       14 1
+
+i < 19
+index < 1                                                       20 1
+
