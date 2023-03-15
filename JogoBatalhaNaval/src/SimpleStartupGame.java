@@ -9,7 +9,7 @@ class SimpleStartupGame {
 
         int randonNum = (int) (Math.random() * 5);
 
-        int[] locations = {randonNum, randonNum +1, randonNum +2};
+        int[] locations = {1, 2, 3};
 
         theStartup.setLocationCells(locations);
 
@@ -24,7 +24,7 @@ class SimpleStartupGame {
             if(result.equals("kill")){
                 isAlive = false;
 
-                System.out.println("You took " + numOfGuesses + "guesses");
+                System.out.println("You took " + numOfGuesses + " guesses");
             }
         }
     }
