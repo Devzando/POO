@@ -1,3 +1,4 @@
+import java.util.*;
 class SimpleStartupGame {
     
     public static void main(String[] args) {
@@ -9,7 +10,10 @@ class SimpleStartupGame {
 
         int randonNum = (int) (Math.random() * 5);
 
-        int[] locations = {1, 2, 3};
+        ArrayList<String> locations = new ArrayList<String>();
+        locations.add(Integer.toString(randonNum));
+        locations.add(Integer.toString(randonNum+1));
+        locations.add(Integer.toString(randonNum+2));
 
         theStartup.setLocationCells(locations);
 
@@ -17,7 +21,7 @@ class SimpleStartupGame {
 
         while(isAlive){
             int guess = helper.getUserInput("enter a number");
-            String result = theStartup.checkYourself(guess);
+            String result = theStartup.checkYourself(Integer.toString(guess));
 
             numOfGuesses++;
 

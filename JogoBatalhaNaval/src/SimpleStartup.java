@@ -1,35 +1,27 @@
+import java.util.*;
 public class SimpleStartup {
-    private int[] locationCells;
-    private int[] acertos = {0, 0, 0, 0, 0};
-    private int numOfHits = 0;
+  
+    private ArrayList<String> locationCells;
 
-    public void setLocationCells(int[] locs){
+    public void setLocationCells(ArrayList<String> locs){
         locationCells = locs;
     }
 
-    public String checkYourself(int guess){
+    public String checkYourself(String userInput){
         String result = "miss";
+        int index = locationCells.indexOf(userInput);
 
-        for(int cell2: acertos){
-            if(cell2 == guess){
-                System.out.println("digite direito seu porra");
-                result = "not hit";
-                return result;
-            }
-        }
+        if(index >= 0){
+            locationCells.remove(index);
 
-        for(int cell: locationCells ){
-            if(guess == cell){
+            if(locationCells.isEmpty()){
+                result = "kill";
+            } else {
                 result = "hit";
-                acertos[numOfHits] = guess;
-                numOfHits++;
-                break;
             }
-        }
-        if(numOfHits == locationCells.length){
-            result = "kill";
         }
         System.out.println(result);
-        return result; 
+
+        return result;
     }
 }
