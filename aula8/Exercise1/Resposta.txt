@@ -1,0 +1,13 @@
+1. Uma instância
+
+2. Duas instâncias
+
+3. Um método
+
+4. Dois métodos
+
+5. Dois métodos
+
+6. Sim
+
+7. Não

@@ -1,0 +1,5 @@
+Primeiramente, não é um bug, mas sim um erro de lógica.
+
+O programa não entende que o valor "1" já foi acertado.
+Nesse caso, criemos um array, que ira armazenar os valores que já foram acertados, deposi e só ficar verificando, dentro desse array, se o novo valor escolhido
+já foi escolhido antes. 
