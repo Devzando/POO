@@ -1,0 +1,5 @@
+gc2 = null
+gc1 = null
+newGC = null
+gc4 = null
+gc3 = null
