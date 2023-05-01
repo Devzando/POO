@@ -1,0 +1,27 @@
+Concrete                            Sample class                           Abstract
+
+golfe course simulation                  Tree                              Tree nursery application
+
+                                         House                             Architect application
+
+satelite photo application               Town                                                   
+
+                                        Football player                    coaching application
+
+furniture management application        Chair
+
+                                        Customer                           sales management application                                                
+
+                                        Sales order                        sales management application                    
+     
+library management application          Book
+
+                                        Store                              inventory management application                     
+
+                                        Supplier                           inventory management application                     
+
+virtual golf game application           Golf Club
+
+automotive vehicle maintenance          Carburetor
+
+cooking app                             Oven
