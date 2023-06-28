@@ -1,0 +1,7 @@
+Sim, roda, e a saida é a seguinte:
+
+Super static block
+Static block 3
+In main
+Super constructor
+Constructor
