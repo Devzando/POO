@@ -1,0 +1,31 @@
+1:
+
+try {
+
+} catch(BoinkEx e){
+
+} catch(BiffEx e){
+
+} catch(BarEx e){
+
+} catch(FooEx e){
+
+} catch (BazEx e){
+
+}
+
+2: 
+
+try {
+
+} catch(BoinkEx e){
+
+} catch(BarEx e){
+
+} catch(BiffEx e){
+
+} catch(FooEx e){
+
+} catch (BazEx e){
+
+}

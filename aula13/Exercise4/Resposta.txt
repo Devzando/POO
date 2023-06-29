@@ -1,0 +1,17 @@
+1: False
+2: True
+3: True
+4: False
+5: True
+6: True
+7: True
+8: True
+9: True
+10: False
+!!: True
+12: False
+13: False
+14: True
+15: False
+16: True
+17: True

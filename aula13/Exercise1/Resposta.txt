@@ -1,0 +1,16 @@
+Para test = "no"
+
+start try
+start risky
+end risky
+end try
+finally
+end of main
+
+Para test = "yes"
+
+start try
+start risky
+scary exception
+finally
+end of main
